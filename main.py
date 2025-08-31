@@ -5,4 +5,5 @@ app = FastAPI()
 
 @app.get("/")
 def HelloWorld():
-    return
+    a = 10 
+    return a
